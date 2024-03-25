@@ -1,0 +1,31 @@
+body{
+    margin: auto;
+}
+@font-face {
+    font-family: 'EAS_TITLE'; /*a name to be used later*/
+    src: url('fonts/VCR_OSD_MONO.ttf'); /*URL to font*/
+}
+
+.blink {
+  animation: blinker 1s linear infinite;
+}
+
+@keyframes blinker {
+  50% {
+    opacity: 0;
+  }
+}
+
+.eas {
+    font-family: 'EAS_TITLE';
+    margin: auto;
+    text-align: center;
+    font-size: 120%;
+    color: #fff;
+    border-top: 5px solid #CD201F;
+    border-bottom: 5px solid #CD201F;
+    border-left: 5px solid #CD201F;
+    border-right: 5px solid #CD201F;
+    background: #131418;
+    opacity: 0.76;
+}
